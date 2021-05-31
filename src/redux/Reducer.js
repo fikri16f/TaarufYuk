@@ -16,8 +16,7 @@ function LoginReducer(state=initialLoginGlobal,action){
     return state;
 }
 
-const Reducer = combineReducers({
+const reducer = combineReducers({
     LoginReducer,
 })
-
-export default Reducer
+export default reducer

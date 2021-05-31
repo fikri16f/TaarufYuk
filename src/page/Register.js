@@ -107,7 +107,7 @@ class Register extends Component {
         <Text> Jenis Kelamin </Text>
         <Picker
                     selectedValue={this.state.jenisKelamin}
-                    style={{ height: 50, width: 300 }}
+                    style={{ height: 50, width: 100 }}
                     onValueChange={(itemValue) => this.setState({ jenisKelamin: itemValue })}>
                     <Picker.Item label="Masukan Pilihan"/>
                     <Picker.Item label="Laki-laki" value="Laki-laki" />

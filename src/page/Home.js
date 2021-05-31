@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 class Home extends Component {
     handlerLogin(){
         if(this.props.isLogin){
-            this.props.navigation.navigate('MainMenu')
+            this.props.navigation.navigate('Menu')
         }else{
             this.props.navigation.navigate('Login')
         }
